@@ -9,7 +9,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # audio_path = "3c62ba218b4617014d826d8fddcbdfe7_VR_133139800_1737593699068945199_0.mp3"
 audio_path = "8ba96b7cf0425a575011efba83288146_VR_137993835_1737600883628319012_0.mp3"
-model = whisper.load_model(name="tiny",download_root="models").to(device)
+model = whisper.load_model(name="tiny",download_root="../models").to(device)
 
 
 audio = whisper.load_audio(audio_path)
