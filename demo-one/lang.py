@@ -7,7 +7,7 @@ from openai import OpenAI
 # base_url = "https://api.siliconflow.cn/v1"
 # model_name = "FunAudioLLM/SenseVoiceSmall"
 # https://doc.zhizengzeng.com/
-api_key =  "sk-zk223047594ab0ebad54c9709d2e7c847786791cb7e2a30d"
+api_key =  ""
 base_url = "https://api.zhizengzeng.com/v1"
 model_name = "whisper-1"
 
